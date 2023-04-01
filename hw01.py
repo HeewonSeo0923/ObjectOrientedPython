@@ -8,9 +8,16 @@ class Product:
         money = price * quantity
         return money
 
-class ShoppingCart:
-    def __init__(self):
-        self.shop_list = []
+    class ShoppingCart:
+        def __init__(self):
+            self.shop_list = []
 
-    def add(self, Product) -> None:
+        def add(self, Product) -> None:
+            pass
+
+        def delete(self):
+            pass
+
+if __name__ == "__main__" :
+    pass
         
