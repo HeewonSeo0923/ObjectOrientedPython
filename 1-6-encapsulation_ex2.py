@@ -1,6 +1,6 @@
 class A :
     def __init__(self, x = 0):
-        self.x = x
+        self.__x = x
 
 if __name__ == '__main__':
     a = A()
