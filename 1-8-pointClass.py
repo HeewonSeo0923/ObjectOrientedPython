@@ -13,11 +13,11 @@ class Point:
     def get_y(self) -> float:
         return self.__y
 
-    @property
+    @x.setter
     def set_x(self, x=float) :
         self.__x = x
 
-    @property
+    @y.setter
     def set_y(self, y=float):
         self.__y = y
 

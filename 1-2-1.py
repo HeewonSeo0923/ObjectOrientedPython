@@ -7,7 +7,7 @@ def roll() :
 
 def win_lose(faces):
     sum = 0
-    for face in faces :
+    for face in faces:
         sum += face
         print(face, end=' ')
 

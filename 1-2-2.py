@@ -3,8 +3,10 @@ import random
 class Die:
     def __init__(self):
         self.face = random.randrange(1, 7)
+
     def roll(self):
         self.face = random.randrange(1, 7)
+
 
 class Dice_Game():
     def __init__(self):
